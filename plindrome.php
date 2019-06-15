@@ -1,5 +1,5 @@
 <?php
-//first modo
+// ! first modo
  function checkWord($word){
      if(empty($word) || $word == ' '){echo 'this word can NOT be embty :( <br />' ; return false ; }
     $palindrome = trim(str_split($word));
@@ -8,14 +8,14 @@
  }
   checkWord(' ');
 
-//second modo
+// ! second modo
 function checkWordSecondModo($word){
     if(empty($word) || $word == ' '){echo 'this word can NOT be embty :( <br />' ; return false ; }
      echo (!strcmp(strtolower($word),strtolower(strrev($word))))? 'this word is PALINDROME <br />' :  'this word is NOT palindrome <br />';
 }
  checkWordSecondModo('osaso');
 
-//threed modo
+// ! threed modo
 function checkWordThreeModo ($word){
     $word = strtolower($word);
     for($i = 0 ; $i < strlen($word) ; $i++):
@@ -30,7 +30,7 @@ checkWordThreeModo ('ahmed');
 
 
 <script>
-    //first modo
+    // ! first modo
  let checkWord = word => {
      if( word == ' ' || word == '' ){document.write( 'this word can NOT be embty :( <br />') ; return false ; }
     let palindrome = word.trim().split('').reverse();
@@ -40,7 +40,7 @@ checkWordThreeModo ('ahmed');
     }
   checkWord('osaso ');
 
-  //second modo
+  // ! second modo
 function checkWordThreeModo (word){
     word = word.ToLowerCase();
     for($i = 0 ; $i < $word.length ; $i++){
