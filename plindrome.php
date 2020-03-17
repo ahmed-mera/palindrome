@@ -28,6 +28,7 @@ function checkWordThreeModo ($word){
 checkWordThreeModo ('ahmed');
 ?>
 
+<!-- nkjg353jrnkofr3nko3frnok -->
 
 <script>
     // ! first modo
